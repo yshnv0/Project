@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="arrangement.css">
+</head>
+<body bgcolor='#d2d9d4'>
+    <h1>Registration Form</h1>
+    <div class="rf">
+    <form action="">
+        
+        <label for="fname" >First Name</label>
+        <input type="text"  id="fname">
+        <br>
+        <label for="lname">Last Name</label>
+        <input type="text">
+        <br>
+        <label for="nickName">Nick Name</label>
+        <input type="text">
+        <br>
+        <label for="mail">E-mail</label>
+        <input type="email">
+        <br>
+        <label for="pass">Password</label>
+        <input type="password">
+        <br>
+        <label for="dob">Date of Birth</label>
+        <input type="text">
+        <br>
+        <label for="sex">Gender</label>
+        
+        <input class="gen" type="radio" name=gender values="Male">
+        <label class="gen" for="male">Male</label>
+        <input class="gen" type="radio" name=gender value="Female">
+        <label class="gen" for="Female">Female</label>
+        <input  class="gen" type="radio" name=gender value="Others">
+        <label class="gen" for="Others">Others</label>
+        <br>
+        <label for="phoneno">Mobile</label>
+        <input type="number">
+        <br>
+        <label for="addrs">Address</label>
+        <textarea class='textarea'></textarea>
+        <br>
+        <button onclick="fun()">submit</button>
+        <button>reset</button>
+</div>
+<script>
+    function fun() {
+        alert("Registration Successful")
+    }
+</script>
+</body>
+</html>
